@@ -1,0 +1,60 @@
+digraph tree {
+	"('percentage_of_time_with_abnormal_long_term_variability', 'histogram_mean') [73, 89] 0" [label="('percentage_of_time_with_abnormal_long_term_variability', 'histogram_mean') [73, 89] 0", shape=circle]
+	"('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3" [label="('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3", shape=circle]
+	"leaf 1 1" [label="leaf 1 1", shape=circle]
+	"leaf 3 2" [label="leaf 3 2", shape=circle]
+	"leaf 3 28" [label="leaf 3 28", shape=circle]
+	"('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5" [label="('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5", shape=circle]
+	"leaf 1 26" [label="leaf 1 26", shape=circle]
+	"leaf 1 27" [label="leaf 1 27", shape=circle]
+	"leaf 1 4" [label="leaf 1 4", shape=circle]
+	"('baseline value', 'histogram_median') [159, 86] 7" [label="('baseline value', 'histogram_median') [159, 86] 7", shape=circle]
+	"('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16" [label="('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16", shape=circle]
+	"leaf 1 6" [label="leaf 1 6", shape=circle]
+	"leaf 3 25" [label="leaf 3 25", shape=circle]
+	"('baseline value', 'histogram_median') [158, 91] 10" [label="('baseline value', 'histogram_median') [158, 91] 10", shape=circle]
+	"leaf 1 15" [label="leaf 1 15", shape=circle]
+	"leaf 1 8" [label="leaf 1 8", shape=circle]
+	"leaf 3 9" [label="leaf 3 9", shape=circle]
+	"('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18" [label="('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18", shape=circle]
+	"leaf 1 17" [label="leaf 1 17", shape=circle]
+	"leaf 1 23" [label="leaf 1 23", shape=circle]
+	"leaf 1 24" [label="leaf 1 24", shape=circle]
+	"leaf 1 11" [label="leaf 1 11", shape=circle]
+	"leaf 1 13" [label="leaf 1 13", shape=circle]
+	"leaf 1 14" [label="leaf 1 14", shape=circle]
+	"leaf 2 12" [label="leaf 2 12", shape=circle]
+	"leaf 1 19" [label="leaf 1 19", shape=circle]
+	"leaf 1 20" [label="leaf 1 20", shape=circle]
+	"leaf 1 21" [label="leaf 1 21", shape=circle]
+	"leaf 1 22" [label="leaf 1 22", shape=circle]
+
+	"('percentage_of_time_with_abnormal_long_term_variability', 'histogram_mean') [73, 89] 0" -> "leaf 3 2"
+	"('percentage_of_time_with_abnormal_long_term_variability', 'histogram_mean') [73, 89] 0" -> "leaf 1 1"
+	"('percentage_of_time_with_abnormal_long_term_variability', 'histogram_mean') [73, 89] 0" -> "('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3"
+	"('percentage_of_time_with_abnormal_long_term_variability', 'histogram_mean') [73, 89] 0" -> "leaf 3 28"
+	"('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3" -> "('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5"
+	"('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3" -> "leaf 1 26"
+	"('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3" -> "leaf 1 27"
+	"('mean_value_of_short_term_variability', 'histogram_mean') [6.3, 180] 3" -> "leaf 1 4"
+	"('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5" -> "('baseline value', 'histogram_median') [159, 86] 7"
+	"('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5" -> "leaf 1 6"
+	"('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5" -> "('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16"
+	"('abnormal_short_term_variability', 'percentage_of_time_with_abnormal_long_term_variability') [83, 0] 5" -> "leaf 3 25"
+	"('baseline value', 'histogram_median') [159, 86] 7" -> "leaf 3 9"
+	"('baseline value', 'histogram_median') [159, 86] 7" -> "leaf 1 8"
+	"('baseline value', 'histogram_median') [159, 86] 7" -> "('baseline value', 'histogram_median') [158, 91] 10"
+	"('baseline value', 'histogram_median') [159, 86] 7" -> "leaf 1 15"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16" -> "('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16" -> "leaf 1 23"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16" -> "leaf 1 24"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [4.1, 87] 16" -> "leaf 1 17"
+	"('baseline value', 'histogram_median') [158, 91] 10" -> "leaf 2 12"
+	"('baseline value', 'histogram_median') [158, 91] 10" -> "leaf 1 11"
+	"('baseline value', 'histogram_median') [158, 91] 10" -> "leaf 1 13"
+	"('baseline value', 'histogram_median') [158, 91] 10" -> "leaf 1 14"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18" -> "leaf 1 20"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18" -> "leaf 1 21"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18" -> "leaf 1 22"
+	"('mean_value_of_short_term_variability', 'histogram_variance') [3.0, 82] 18" -> "leaf 1 19"
+}

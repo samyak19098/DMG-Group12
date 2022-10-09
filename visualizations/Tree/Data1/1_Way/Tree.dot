@@ -1,0 +1,40 @@
+digraph tree {
+	"Schiller 0 0" [label="Schiller 0 0", shape=circle]
+	"Age 13 1" [label="Age 13 1", shape=circle]
+	"First sexual intercourse 23.0 10" [label="First sexual intercourse 23.0 10", shape=circle]
+	"Age 59 3" [label="Age 59 3", shape=circle]
+	"leaf 0 2" [label="leaf 0 2", shape=circle]
+	"First sexual intercourse 22.0 11" [label="First sexual intercourse 22.0 11", shape=circle]
+	"leaf 1 18" [label="leaf 1 18", shape=circle]
+	"Age 52 4" [label="Age 52 4", shape=circle]
+	"leaf 0 9" [label="leaf 0 9", shape=circle]
+	"STDs:syphilis 0.0 12" [label="STDs:syphilis 0.0 12", shape=circle]
+	"leaf 1 17" [label="leaf 1 17", shape=circle]
+	"Age 50 5" [label="Age 50 5", shape=circle]
+	"leaf 0 8" [label="leaf 0 8", shape=circle]
+	"IUD (years) 11.0 13" [label="IUD (years) 11.0 13", shape=circle]
+	"leaf 0 16" [label="leaf 0 16", shape=circle]
+	"leaf 0 6" [label="leaf 0 6", shape=circle]
+	"leaf 0 7" [label="leaf 0 7", shape=circle]
+	"leaf 0 15" [label="leaf 0 15", shape=circle]
+	"leaf 1 14" [label="leaf 1 14", shape=circle]
+
+	"Schiller 0 0" -> "Age 13 1"
+	"Schiller 0 0" -> "First sexual intercourse 23.0 10"
+	"Age 13 1" -> "leaf 0 2"
+	"Age 13 1" -> "Age 59 3"
+	"First sexual intercourse 23.0 10" -> "First sexual intercourse 22.0 11"
+	"First sexual intercourse 23.0 10" -> "leaf 1 18"
+	"Age 59 3" -> "Age 52 4"
+	"Age 59 3" -> "leaf 0 9"
+	"First sexual intercourse 22.0 11" -> "STDs:syphilis 0.0 12"
+	"First sexual intercourse 22.0 11" -> "leaf 1 17"
+	"Age 52 4" -> "Age 50 5"
+	"Age 52 4" -> "leaf 0 8"
+	"STDs:syphilis 0.0 12" -> "IUD (years) 11.0 13"
+	"STDs:syphilis 0.0 12" -> "leaf 0 16"
+	"Age 50 5" -> "leaf 0 6"
+	"Age 50 5" -> "leaf 0 7"
+	"IUD (years) 11.0 13" -> "leaf 1 14"
+	"IUD (years) 11.0 13" -> "leaf 0 15"
+}

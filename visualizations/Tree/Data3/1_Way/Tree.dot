@@ -1,0 +1,44 @@
+digraph tree {
+	"campaign 43 0" [label="campaign 43 0", shape=circle]
+	"education_basic.6y 0 1" [label="education_basic.6y 0 1", shape=circle]
+	"leaf 0 20" [label="leaf 0 20", shape=circle]
+	"age 19 13" [label="age 19 13", shape=circle]
+	"marital_divorced 0 2" [label="marital_divorced 0 2", shape=circle]
+	"age 78 15" [label="age 78 15", shape=circle]
+	"leaf 1 14" [label="leaf 1 14", shape=circle]
+	"age 88 10" [label="age 88 10", shape=circle]
+	"cons_price_idx 94.215 3" [label="cons_price_idx 94.215 3", shape=circle]
+	"age 76 16" [label="age 76 16", shape=circle]
+	"leaf 0 19" [label="leaf 0 19", shape=circle]
+	"leaf 0 11" [label="leaf 0 11", shape=circle]
+	"leaf 1 12" [label="leaf 1 12", shape=circle]
+	"duration 2635 7" [label="duration 2635 7", shape=circle]
+	"pdays 15 4" [label="pdays 15 4", shape=circle]
+	"leaf 0 17" [label="leaf 0 17", shape=circle]
+	"leaf 0 18" [label="leaf 0 18", shape=circle]
+	"leaf 0 8" [label="leaf 0 8", shape=circle]
+	"leaf 1 9" [label="leaf 1 9", shape=circle]
+	"leaf 0 6" [label="leaf 0 6", shape=circle]
+	"leaf 1 5" [label="leaf 1 5", shape=circle]
+
+	"campaign 43 0" -> "education_basic.6y 0 1"
+	"campaign 43 0" -> "leaf 0 20"
+	"education_basic.6y 0 1" -> "marital_divorced 0 2"
+	"education_basic.6y 0 1" -> "age 19 13"
+	"age 19 13" -> "leaf 1 14"
+	"age 19 13" -> "age 78 15"
+	"marital_divorced 0 2" -> "cons_price_idx 94.215 3"
+	"marital_divorced 0 2" -> "age 88 10"
+	"age 78 15" -> "age 76 16"
+	"age 78 15" -> "leaf 0 19"
+	"age 88 10" -> "leaf 0 11"
+	"age 88 10" -> "leaf 1 12"
+	"cons_price_idx 94.215 3" -> "pdays 15 4"
+	"cons_price_idx 94.215 3" -> "duration 2635 7"
+	"age 76 16" -> "leaf 0 17"
+	"age 76 16" -> "leaf 0 18"
+	"duration 2635 7" -> "leaf 0 8"
+	"duration 2635 7" -> "leaf 1 9"
+	"pdays 15 4" -> "leaf 1 5"
+	"pdays 15 4" -> "leaf 0 6"
+}
