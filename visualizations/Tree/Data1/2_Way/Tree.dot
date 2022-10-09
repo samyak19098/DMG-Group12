@@ -1,84 +1,108 @@
 digraph tree {
 	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" [label="('STDs:syphilis', 'Schiller') [0.0, 0] 0", shape=circle]
-	"('Age', 'Age') [13, 13] 1" [label="('Age', 'Age') [13, 13] 1", shape=circle]
+	"('Age', 'Number of sexual partners') [13, 10.0] 1" [label="('Age', 'Number of sexual partners') [13, 10.0] 1", shape=circle]
 	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" [label="('First sexual intercourse', 'STDs') [14.0, 0.0] 19", shape=circle]
 	"leaf 0 18" [label="leaf 0 18", shape=circle]
-	"leaf 0 40" [label="leaf 0 40", shape=circle]
-	"('Age', 'Age') [59, 59] 5" [label="('Age', 'Age') [59, 59] 5", shape=circle]
+	"leaf 0 52" [label="leaf 0 52", shape=circle]
+	"('Age', 'Number of sexual partners') [59, 8.0] 4" [label="('Age', 'Number of sexual partners') [59, 8.0] 4", shape=circle]
+	"leaf 0 17" [label="leaf 0 17", shape=circle]
 	"leaf 0 2" [label="leaf 0 2", shape=circle]
 	"leaf 0 3" [label="leaf 0 3", shape=circle]
-	"leaf 0 4" [label="leaf 0 4", shape=circle]
-	"('Age', 'Age') [16, 52] 21" [label="('Age', 'Age') [16, 52] 21", shape=circle]
-	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35" [label="('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35", shape=circle]
+	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47" [label="('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47", shape=circle]
+	"('Age', 'Number of sexual partners') [16, 4.0] 21" [label="('Age', 'Number of sexual partners') [16, 4.0] 21", shape=circle]
 	"leaf 0 20" [label="leaf 0 20", shape=circle]
-	"leaf 1 34" [label="leaf 1 34", shape=circle]
-	"('Age', 'Age') [52, 52] 8" [label="('Age', 'Age') [52, 52] 8", shape=circle]
-	"leaf 0 17" [label="leaf 0 17", shape=circle]
-	"leaf 0 6" [label="leaf 0 6", shape=circle]
-	"leaf 0 7" [label="leaf 0 7", shape=circle]
-	"('Age', 'IUD (years)') [51, 7.0] 24" [label="('Age', 'IUD (years)') [51, 7.0] 24", shape=circle]
-	"leaf 0 23" [label="leaf 0 23", shape=circle]
-	"leaf 0 33" [label="leaf 0 33", shape=circle]
-	"leaf 1 22" [label="leaf 1 22", shape=circle]
-	"leaf 0 39" [label="leaf 0 39", shape=circle]
-	"leaf 1 36" [label="leaf 1 36", shape=circle]
-	"leaf 1 37" [label="leaf 1 37", shape=circle]
-	"leaf 1 38" [label="leaf 1 38", shape=circle]
-	"('Age', 'Age') [50, 50] 11" [label="('Age', 'Age') [50, 50] 11", shape=circle]
-	"leaf 0 10" [label="leaf 0 10", shape=circle]
+	"leaf 1 46" [label="leaf 1 46", shape=circle]
+	"('Age', 'Number of sexual partners') [52, 7.0] 6" [label="('Age', 'Number of sexual partners') [52, 7.0] 6", shape=circle]
+	"leaf 0 15" [label="leaf 0 15", shape=circle]
 	"leaf 0 16" [label="leaf 0 16", shape=circle]
-	"leaf 0 9" [label="leaf 0 9", shape=circle]
-	"('Age', 'Age') [40, 45] 26" [label="('Age', 'Age') [40, 45] 26", shape=circle]
-	"leaf 0 31" [label="leaf 0 31", shape=circle]
-	"leaf 1 25" [label="leaf 1 25", shape=circle]
-	"leaf 1 32" [label="leaf 1 32", shape=circle]
-	"leaf 0 12" [label="leaf 0 12", shape=circle]
+	"leaf 0 5" [label="leaf 0 5", shape=circle]
+	"leaf 0 51" [label="leaf 0 51", shape=circle]
+	"leaf 1 48" [label="leaf 1 48", shape=circle]
+	"leaf 1 49" [label="leaf 1 49", shape=circle]
+	"leaf 1 50" [label="leaf 1 50", shape=circle]
+	"('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24" [label="('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24", shape=circle]
+	"leaf 0 23" [label="leaf 0 23", shape=circle]
+	"leaf 1 22" [label="leaf 1 22", shape=circle]
+	"leaf 1 45" [label="leaf 1 45", shape=circle]
+	"('Age', 'Number of sexual partners') [50, 6.0] 8" [label="('Age', 'Number of sexual partners') [50, 6.0] 8", shape=circle]
 	"leaf 0 13" [label="leaf 0 13", shape=circle]
 	"leaf 0 14" [label="leaf 0 14", shape=circle]
-	"leaf 0 15" [label="leaf 0 15", shape=circle]
+	"leaf 0 7" [label="leaf 0 7", shape=circle]
+	"('Age', 'First sexual intercourse') [38, 18.0] 40" [label="('Age', 'First sexual intercourse') [38, 18.0] 40", shape=circle]
+	"('Age', 'First sexual intercourse') [45, 19.0] 25" [label="('Age', 'First sexual intercourse') [45, 19.0] 25", shape=circle]
+	"('Age', 'Number of sexual partners') [17, 1.0] 35" [label="('Age', 'Number of sexual partners') [17, 1.0] 35", shape=circle]
+	"('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30" [label="('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30", shape=circle]
+	"leaf 0 10" [label="leaf 0 10", shape=circle]
+	"leaf 0 11" [label="leaf 0 11", shape=circle]
+	"leaf 0 12" [label="leaf 0 12", shape=circle]
+	"leaf 0 9" [label="leaf 0 9", shape=circle]
+	"leaf 0 43" [label="leaf 0 43", shape=circle]
+	"leaf 1 41" [label="leaf 1 41", shape=circle]
+	"leaf 1 42" [label="leaf 1 42", shape=circle]
+	"leaf 1 44" [label="leaf 1 44", shape=circle]
+	"leaf 0 26" [label="leaf 0 26", shape=circle]
+	"leaf 0 27" [label="leaf 0 27", shape=circle]
 	"leaf 0 29" [label="leaf 0 29", shape=circle]
-	"leaf 1 27" [label="leaf 1 27", shape=circle]
 	"leaf 1 28" [label="leaf 1 28", shape=circle]
-	"leaf 1 30" [label="leaf 1 30", shape=circle]
+	"leaf 0 37" [label="leaf 0 37", shape=circle]
+	"leaf 1 36" [label="leaf 1 36", shape=circle]
+	"leaf 1 38" [label="leaf 1 38", shape=circle]
+	"leaf 1 39" [label="leaf 1 39", shape=circle]
+	"leaf 0 33" [label="leaf 0 33", shape=circle]
+	"leaf 1 31" [label="leaf 1 31", shape=circle]
+	"leaf 1 32" [label="leaf 1 32", shape=circle]
+	"leaf 1 34" [label="leaf 1 34", shape=circle]
 
-	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" -> "('Age', 'Age') [13, 13] 1"
+	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" -> "('Age', 'Number of sexual partners') [13, 10.0] 1"
 	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" -> "leaf 0 18"
 	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" -> "('First sexual intercourse', 'STDs') [14.0, 0.0] 19"
-	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" -> "leaf 0 40"
-	"('Age', 'Age') [13, 13] 1" -> "leaf 0 4"
-	"('Age', 'Age') [13, 13] 1" -> "leaf 0 2"
-	"('Age', 'Age') [13, 13] 1" -> "leaf 0 3"
-	"('Age', 'Age') [13, 13] 1" -> "('Age', 'Age') [59, 59] 5"
+	"('STDs:syphilis', 'Schiller') [0.0, 0] 0" -> "leaf 0 52"
+	"('Age', 'Number of sexual partners') [13, 10.0] 1" -> "leaf 0 3"
+	"('Age', 'Number of sexual partners') [13, 10.0] 1" -> "('Age', 'Number of sexual partners') [59, 8.0] 4"
+	"('Age', 'Number of sexual partners') [13, 10.0] 1" -> "leaf 0 2"
+	"('Age', 'Number of sexual partners') [13, 10.0] 1" -> "leaf 0 17"
 	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "leaf 0 20"
-	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "('Age', 'Age') [16, 52] 21"
-	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "leaf 1 34"
-	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35"
-	"('Age', 'Age') [59, 59] 5" -> "('Age', 'Age') [52, 52] 8"
-	"('Age', 'Age') [59, 59] 5" -> "leaf 0 6"
-	"('Age', 'Age') [59, 59] 5" -> "leaf 0 7"
-	"('Age', 'Age') [59, 59] 5" -> "leaf 0 17"
-	"('Age', 'Age') [16, 52] 21" -> "leaf 0 23"
-	"('Age', 'Age') [16, 52] 21" -> "('Age', 'IUD (years)') [51, 7.0] 24"
-	"('Age', 'Age') [16, 52] 21" -> "leaf 1 22"
-	"('Age', 'Age') [16, 52] 21" -> "leaf 0 33"
-	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35" -> "leaf 1 37"
-	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35" -> "leaf 1 38"
-	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35" -> "leaf 1 36"
-	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 35" -> "leaf 0 39"
-	"('Age', 'Age') [52, 52] 8" -> "('Age', 'Age') [50, 50] 11"
-	"('Age', 'Age') [52, 52] 8" -> "leaf 0 9"
-	"('Age', 'Age') [52, 52] 8" -> "leaf 0 10"
-	"('Age', 'Age') [52, 52] 8" -> "leaf 0 16"
-	"('Age', 'IUD (years)') [51, 7.0] 24" -> "('Age', 'Age') [40, 45] 26"
-	"('Age', 'IUD (years)') [51, 7.0] 24" -> "leaf 1 25"
-	"('Age', 'IUD (years)') [51, 7.0] 24" -> "leaf 0 31"
-	"('Age', 'IUD (years)') [51, 7.0] 24" -> "leaf 1 32"
-	"('Age', 'Age') [50, 50] 11" -> "leaf 0 14"
-	"('Age', 'Age') [50, 50] 11" -> "leaf 0 12"
-	"('Age', 'Age') [50, 50] 11" -> "leaf 0 13"
-	"('Age', 'Age') [50, 50] 11" -> "leaf 0 15"
-	"('Age', 'Age') [40, 45] 26" -> "leaf 1 28"
-	"('Age', 'Age') [40, 45] 26" -> "leaf 0 29"
-	"('Age', 'Age') [40, 45] 26" -> "leaf 1 27"
-	"('Age', 'Age') [40, 45] 26" -> "leaf 1 30"
+	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "('Age', 'Number of sexual partners') [16, 4.0] 21"
+	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "leaf 1 46"
+	"('First sexual intercourse', 'STDs') [14.0, 0.0] 19" -> "('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47"
+	"('Age', 'Number of sexual partners') [59, 8.0] 4" -> "('Age', 'Number of sexual partners') [52, 7.0] 6"
+	"('Age', 'Number of sexual partners') [59, 8.0] 4" -> "leaf 0 15"
+	"('Age', 'Number of sexual partners') [59, 8.0] 4" -> "leaf 0 16"
+	"('Age', 'Number of sexual partners') [59, 8.0] 4" -> "leaf 0 5"
+	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47" -> "leaf 1 49"
+	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47" -> "leaf 1 50"
+	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47" -> "leaf 1 48"
+	"('Age', 'Hormonal Contraceptives (years)') [18, 1.0] 47" -> "leaf 0 51"
+	"('Age', 'Number of sexual partners') [16, 4.0] 21" -> "leaf 0 23"
+	"('Age', 'Number of sexual partners') [16, 4.0] 21" -> "('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24"
+	"('Age', 'Number of sexual partners') [16, 4.0] 21" -> "leaf 1 22"
+	"('Age', 'Number of sexual partners') [16, 4.0] 21" -> "leaf 1 45"
+	"('Age', 'Number of sexual partners') [52, 7.0] 6" -> "('Age', 'Number of sexual partners') [50, 6.0] 8"
+	"('Age', 'Number of sexual partners') [52, 7.0] 6" -> "leaf 0 13"
+	"('Age', 'Number of sexual partners') [52, 7.0] 6" -> "leaf 0 14"
+	"('Age', 'Number of sexual partners') [52, 7.0] 6" -> "leaf 0 7"
+	"('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24" -> "('Age', 'First sexual intercourse') [45, 19.0] 25"
+	"('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24" -> "('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30"
+	"('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24" -> "('Age', 'Number of sexual partners') [17, 1.0] 35"
+	"('Hormonal Contraceptives', 'Hinselmann') [0.0, 0] 24" -> "('Age', 'First sexual intercourse') [38, 18.0] 40"
+	"('Age', 'Number of sexual partners') [50, 6.0] 8" -> "leaf 0 10"
+	"('Age', 'Number of sexual partners') [50, 6.0] 8" -> "leaf 0 11"
+	"('Age', 'Number of sexual partners') [50, 6.0] 8" -> "leaf 0 12"
+	"('Age', 'Number of sexual partners') [50, 6.0] 8" -> "leaf 0 9"
+	"('Age', 'First sexual intercourse') [38, 18.0] 40" -> "leaf 1 42"
+	"('Age', 'First sexual intercourse') [38, 18.0] 40" -> "leaf 1 41"
+	"('Age', 'First sexual intercourse') [38, 18.0] 40" -> "leaf 0 43"
+	"('Age', 'First sexual intercourse') [38, 18.0] 40" -> "leaf 1 44"
+	"('Age', 'First sexual intercourse') [45, 19.0] 25" -> "leaf 0 27"
+	"('Age', 'First sexual intercourse') [45, 19.0] 25" -> "leaf 1 28"
+	"('Age', 'First sexual intercourse') [45, 19.0] 25" -> "leaf 0 26"
+	"('Age', 'First sexual intercourse') [45, 19.0] 25" -> "leaf 0 29"
+	"('Age', 'Number of sexual partners') [17, 1.0] 35" -> "leaf 0 37"
+	"('Age', 'Number of sexual partners') [17, 1.0] 35" -> "leaf 1 36"
+	"('Age', 'Number of sexual partners') [17, 1.0] 35" -> "leaf 1 38"
+	"('Age', 'Number of sexual partners') [17, 1.0] 35" -> "leaf 1 39"
+	"('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30" -> "leaf 1 31"
+	"('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30" -> "leaf 1 32"
+	"('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30" -> "leaf 0 33"
+	"('Hormonal Contraceptives (years)', 'IUD') [3.0, 0.0] 30" -> "leaf 1 34"
 }
