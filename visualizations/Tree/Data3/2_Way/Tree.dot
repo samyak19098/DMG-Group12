@@ -1,244 +1,308 @@
 digraph tree {
-	"('previous', 'contact_cellular') [6, 0] 0" [label="('previous', 'contact_cellular') [6, 0] 0", shape=circle]
-	"('euribor3m', 'pdays') [4.968, 0] 67" [label="('euribor3m', 'pdays') [4.968, 0] 67", shape=circle]
-	"('job_admin.', 'poutcome_success') [0, 0] 2" [label="('job_admin.', 'poutcome_success') [0, 0] 2", shape=circle]
+	"('poutcome_nonexistent', 'poutcome_failure') [0, 0] 0" [label="('poutcome_nonexistent', 'poutcome_failure') [0, 0] 0", shape=circle]
+	"('day_of_week_fri', 'month_may') [0, 0] 2" [label="('day_of_week_fri', 'month_may') [0, 0] 2", shape=circle]
+	"('job_student', 'job_student') [0, 0] 124" [label="('job_student', 'job_student') [0, 0] 124", shape=circle]
+	"('month_aug', 'month_aug') [0, 0] 79" [label="('month_aug', 'month_aug') [0, 0] 79", shape=circle]
 	"leaf 0 1" [label="leaf 0 1", shape=circle]
-	"leaf 0 120" [label="leaf 0 120", shape=circle]
-	"('job_unknown', 'job_unknown') [0, 0] 115" [label="('job_unknown', 'job_unknown') [0, 0] 115", shape=circle]
-	"('marital_married', 'marital_married') [0, 0] 69" [label="('marital_married', 'marital_married') [0, 0] 69", shape=circle]
-	"('pdays', 'default_no') [1, 0] 78" [label="('pdays', 'default_no') [1, 0] 78", shape=circle]
-	"leaf 0 68" [label="leaf 0 68", shape=circle]
-	"('campaign', 'month_nov') [3, 0] 50" [label="('campaign', 'month_nov') [3, 0] 50", shape=circle]
-	"('duration', 'euribor3m') [72, 1.466] 37" [label="('duration', 'euribor3m') [72, 1.466] 37", shape=circle]
-	"('housing_unknown', 'housing_unknown') [0, 0] 3" [label="('housing_unknown', 'housing_unknown') [0, 0] 3", shape=circle]
-	"('marital_divorced', 'marital_divorced') [0, 0] 20" [label="('marital_divorced', 'marital_divorced') [0, 0] 20", shape=circle]
+	"('euribor3m', 'day_of_week_wed') [4.12, 0] 3" [label="('euribor3m', 'day_of_week_wed') [4.12, 0] 3", shape=circle]
+	"('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45" [label="('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45", shape=circle]
+	"('job_technician', 'age') [0, 27] 62" [label="('job_technician', 'age') [0, 27] 62", shape=circle]
+	"('pdays', 'education_basic.6y') [1, 0] 32" [label="('pdays', 'education_basic.6y') [1, 0] 32", shape=circle]
+	"('default_no', 'default_no') [0, 0] 127" [label="('default_no', 'default_no') [0, 0] 127", shape=circle]
+	"leaf 0 125" [label="leaf 0 125", shape=circle]
+	"leaf 0 126" [label="leaf 0 126", shape=circle]
+	"leaf 0 152" [label="leaf 0 152", shape=circle]
+	"('job_housemaid', 'job_housemaid') [0, 0] 82" [label="('job_housemaid', 'job_housemaid') [0, 0] 82", shape=circle]
+	"('job_unknown', 'job_unknown') [0, 0] 103" [label="('job_unknown', 'job_unknown') [0, 0] 103", shape=circle]
+	"leaf 0 80" [label="leaf 0 80", shape=circle]
+	"leaf 0 81" [label="leaf 0 81", shape=circle]
+	"('education_high.school', 'education_high.school') [0, 0] 18" [label="('education_high.school', 'education_high.school') [0, 0] 18", shape=circle]
+	"('marital_single', 'duration') [0, 59] 4" [label="('marital_single', 'duration') [0, 59] 4", shape=circle]
+	"leaf 0 17" [label="leaf 0 17", shape=circle]
+	"leaf 0 31" [label="leaf 0 31", shape=circle]
+	"('euribor3m', 'duration') [0.682, 269] 57" [label="('euribor3m', 'duration') [0.682, 269] 57", shape=circle]
+	"('poutcome_success', 'duration') [1, 85] 48" [label="('poutcome_success', 'duration') [1, 85] 48", shape=circle]
+	"leaf 0 46" [label="leaf 0 46", shape=circle]
+	"leaf 0 47" [label="leaf 0 47", shape=circle]
+	"('cons_conf_idx', 'housing_yes') [-46.2, 0] 74" [label="('cons_conf_idx', 'housing_yes') [-46.2, 0] 74", shape=circle]
+	"('day_of_week_thu', 'pdays') [0, 3] 65" [label="('day_of_week_thu', 'pdays') [0, 3] 65", shape=circle]
+	"leaf 0 64" [label="leaf 0 64", shape=circle]
+	"leaf 1 63" [label="leaf 1 63", shape=circle]
+	"('euribor3m', 'campaign') [1.726, 6] 35" [label="('euribor3m', 'campaign') [1.726, 6] 35", shape=circle]
+	"('month_jul', 'pdays') [0, 3] 40" [label="('month_jul', 'pdays') [0, 3] 40", shape=circle]
+	"leaf 0 34" [label="leaf 0 34", shape=circle]
+	"leaf 1 33" [label="leaf 1 33", shape=circle]
+	"('cons_conf_idx', 'duration') [-47.1, 1594] 143" [label="('cons_conf_idx', 'duration') [-47.1, 1594] 143", shape=circle]
+	"('education_unknown', 'education_unknown') [0, 0] 130" [label="('education_unknown', 'education_unknown') [0, 0] 130", shape=circle]
+	"leaf 0 128" [label="leaf 0 128", shape=circle]
+	"leaf 0 129" [label="leaf 0 129", shape=circle]
+	"('education_university.degree', 'education_university.degree') [0, 0] 85" [label="('education_university.degree', 'education_university.degree') [0, 0] 85", shape=circle]
+	"('month_jun', 'month_jun') [0, 0] 98" [label="('month_jun', 'month_jun') [0, 0] 98", shape=circle]
+	"leaf 0 83" [label="leaf 0 83", shape=circle]
+	"leaf 0 84" [label="leaf 0 84", shape=circle]
+	"('euribor3m', 'duration') [0.821, 3422] 106" [label="('euribor3m', 'duration') [0.821, 3422] 106", shape=circle]
+	"('nr_employed', 'pdays') [4991.6, 999] 115" [label="('nr_employed', 'pdays') [4991.6, 999] 115", shape=circle]
+	"leaf 0 104" [label="leaf 0 104", shape=circle]
+	"leaf 0 105" [label="leaf 0 105", shape=circle]
+	"('marital_married', 'duration') [0, 90] 26" [label="('marital_married', 'duration') [0, 90] 26", shape=circle]
+	"('month_oct', 'duration') [0, 71] 21" [label="('month_oct', 'duration') [0, 71] 21", shape=circle]
+	"leaf 1 19" [label="leaf 1 19", shape=circle]
+	"leaf 1 20" [label="leaf 1 20", shape=circle]
+	"('housing_yes', 'job_housemaid') [0, 0] 12" [label="('housing_yes', 'job_housemaid') [0, 0] 12", shape=circle]
+	"('previous', 'job_blue-collar') [6, 0] 7" [label="('previous', 'job_blue-collar') [6, 0] 7", shape=circle]
+	"leaf 0 5" [label="leaf 0 5", shape=circle]
+	"leaf 0 6" [label="leaf 0 6", shape=circle]
+	"leaf 0 58" [label="leaf 0 58", shape=circle]
+	"leaf 0 59" [label="leaf 0 59", shape=circle]
+	"leaf 0 60" [label="leaf 0 60", shape=circle]
+	"leaf 1 61" [label="leaf 1 61", shape=circle]
+	"('job_services', 'duration') [0, 131] 52" [label="('job_services', 'duration') [0, 131] 52", shape=circle]
+	"leaf 0 51" [label="leaf 0 51", shape=circle]
+	"leaf 1 49" [label="leaf 1 49", shape=circle]
+	"leaf 1 50" [label="leaf 1 50", shape=circle]
+	"leaf 0 77" [label="leaf 0 77", shape=circle]
+	"leaf 1 75" [label="leaf 1 75", shape=circle]
+	"leaf 1 76" [label="leaf 1 76", shape=circle]
+	"leaf 1 78" [label="leaf 1 78", shape=circle]
+	"('job_blue-collar', 'duration') [0, 218] 69" [label="('job_blue-collar', 'duration') [0, 218] 69", shape=circle]
+	"leaf 1 66" [label="leaf 1 66", shape=circle]
+	"leaf 1 67" [label="leaf 1 67", shape=circle]
+	"leaf 1 68" [label="leaf 1 68", shape=circle]
+	"leaf 0 38" [label="leaf 0 38", shape=circle]
+	"leaf 0 39" [label="leaf 0 39", shape=circle]
+	"leaf 1 36" [label="leaf 1 36", shape=circle]
+	"leaf 1 37" [label="leaf 1 37", shape=circle]
+	"leaf 0 41" [label="leaf 0 41", shape=circle]
+	"leaf 0 42" [label="leaf 0 42", shape=circle]
+	"leaf 0 44" [label="leaf 0 44", shape=circle]
+	"leaf 1 43" [label="leaf 1 43", shape=circle]
+	"('pdays', 'day_of_week_tue') [6, 0] 144" [label="('pdays', 'day_of_week_tue') [6, 0] 144", shape=circle]
+	"leaf 0 149" [label="leaf 0 149", shape=circle]
+	"leaf 0 150" [label="leaf 0 150", shape=circle]
+	"leaf 1 151" [label="leaf 1 151", shape=circle]
+	"('duration', 'month_may') [1285, 0] 133" [label="('duration', 'month_may') [1285, 0] 133", shape=circle]
+	"('housing_no', 'cons_conf_idx') [0, -42.0] 138" [label="('housing_no', 'cons_conf_idx') [0, -42.0] 138", shape=circle]
+	"leaf 0 131" [label="leaf 0 131", shape=circle]
+	"leaf 0 132" [label="leaf 0 132", shape=circle]
+	"('duration', 'month_oct') [3643, 0] 88" [label="('duration', 'month_oct') [3643, 0] 88", shape=circle]
+	"('emp_var_rate', 'duration') [1.1, 2621] 93" [label="('emp_var_rate', 'duration') [1.1, 2621] 93", shape=circle]
+	"leaf 0 86" [label="leaf 0 86", shape=circle]
+	"leaf 0 87" [label="leaf 0 87", shape=circle]
+	"leaf 0 100" [label="leaf 0 100", shape=circle]
+	"leaf 0 101" [label="leaf 0 101", shape=circle]
+	"leaf 0 102" [label="leaf 0 102", shape=circle]
+	"leaf 0 99" [label="leaf 0 99", shape=circle]
+	"('nr_employed', 'nr_employed') [5076.2, 5076.2] 109" [label="('nr_employed', 'nr_employed') [5076.2, 5076.2] 109", shape=circle]
+	"leaf 0 107" [label="leaf 0 107", shape=circle]
+	"leaf 0 108" [label="leaf 0 108", shape=circle]
+	"leaf 1 114" [label="leaf 1 114", shape=circle]
+	"('duration', 'age') [390, 57] 119" [label="('duration', 'age') [390, 57] 119", shape=circle]
 	"leaf 0 116" [label="leaf 0 116", shape=circle]
 	"leaf 0 117" [label="leaf 0 117", shape=circle]
-	"leaf 0 118" [label="leaf 0 118", shape=circle]
-	"leaf 0 119" [label="leaf 0 119", shape=circle]
-	"('education_illiterate', 'age') [0, 35] 73" [label="('education_illiterate', 'age') [0, 35] 73", shape=circle]
-	"leaf 1 70" [label="leaf 1 70", shape=circle]
-	"leaf 1 71" [label="leaf 1 71", shape=circle]
+	"leaf 1 118" [label="leaf 1 118", shape=circle]
+	"leaf 0 28" [label="leaf 0 28", shape=circle]
+	"leaf 1 27" [label="leaf 1 27", shape=circle]
+	"leaf 1 29" [label="leaf 1 29", shape=circle]
+	"leaf 1 30" [label="leaf 1 30", shape=circle]
+	"leaf 0 23" [label="leaf 0 23", shape=circle]
+	"leaf 1 22" [label="leaf 1 22", shape=circle]
+	"leaf 1 24" [label="leaf 1 24", shape=circle]
+	"leaf 1 25" [label="leaf 1 25", shape=circle]
+	"leaf 0 15" [label="leaf 0 15", shape=circle]
+	"leaf 0 16" [label="leaf 0 16", shape=circle]
+	"leaf 1 13" [label="leaf 1 13", shape=circle]
+	"leaf 1 14" [label="leaf 1 14", shape=circle]
+	"leaf 0 10" [label="leaf 0 10", shape=circle]
+	"leaf 0 11" [label="leaf 0 11", shape=circle]
+	"leaf 1 8" [label="leaf 1 8", shape=circle]
+	"leaf 1 9" [label="leaf 1 9", shape=circle]
+	"leaf 0 54" [label="leaf 0 54", shape=circle]
+	"leaf 1 53" [label="leaf 1 53", shape=circle]
+	"leaf 1 55" [label="leaf 1 55", shape=circle]
+	"leaf 1 56" [label="leaf 1 56", shape=circle]
+	"leaf 0 70" [label="leaf 0 70", shape=circle]
+	"leaf 0 71" [label="leaf 0 71", shape=circle]
+	"leaf 0 73" [label="leaf 0 73", shape=circle]
 	"leaf 1 72" [label="leaf 1 72", shape=circle]
-	"('age', 'age') [86, 86] 80" [label="('age', 'age') [86, 86] 80", shape=circle]
-	"('education_basic.4y', 'pdays') [0, 11] 94" [label="('education_basic.4y', 'pdays') [0, 11] 94", shape=circle]
-	"('previous', 'duration') [4, 606] 89" [label="('previous', 'duration') [4, 606] 89", shape=circle]
-	"leaf 0 79" [label="leaf 0 79", shape=circle]
-	"('age', 'euribor3m') [29, 0.719] 62" [label="('age', 'euribor3m') [29, 0.719] 62", shape=circle]
-	"('education_university.degree', 'education_university.degree') [0, 0] 52" [label="('education_university.degree', 'education_university.degree') [0, 0] 52", shape=circle]
-	"leaf 0 61" [label="leaf 0 61", shape=circle]
-	"leaf 1 51" [label="leaf 1 51", shape=circle]
-	"('euribor3m', 'euribor3m') [1.354, 1.365] 40" [label="('euribor3m', 'euribor3m') [1.354, 1.365] 40", shape=circle]
-	"leaf 0 39" [label="leaf 0 39", shape=circle]
-	"leaf 0 49" [label="leaf 0 49", shape=circle]
-	"leaf 1 38" [label="leaf 1 38", shape=circle]
-	"('day_of_week_wed', 'day_of_week_wed') [0, 0] 6" [label="('day_of_week_wed', 'day_of_week_wed') [0, 0] 6", shape=circle]
-	"leaf 0 19" [label="leaf 0 19", shape=circle]
-	"leaf 0 4" [label="leaf 0 4", shape=circle]
-	"leaf 0 5" [label="leaf 0 5", shape=circle]
-	"('loan_yes', 'loan_yes') [0, 0] 23" [label="('loan_yes', 'loan_yes') [0, 0] 23", shape=circle]
-	"leaf 0 21" [label="leaf 0 21", shape=circle]
-	"leaf 0 22" [label="leaf 0 22", shape=circle]
-	"leaf 0 36" [label="leaf 0 36", shape=circle]
-	"leaf 0 76" [label="leaf 0 76", shape=circle]
-	"leaf 1 74" [label="leaf 1 74", shape=circle]
-	"leaf 1 75" [label="leaf 1 75", shape=circle]
-	"leaf 1 77" [label="leaf 1 77", shape=circle]
-	"('pdays', 'cons_conf_idx') [2, -47.1] 83" [label="('pdays', 'cons_conf_idx') [2, -47.1] 83", shape=circle]
-	"leaf 0 81" [label="leaf 0 81", shape=circle]
-	"leaf 0 82" [label="leaf 0 82", shape=circle]
-	"leaf 1 88" [label="leaf 1 88", shape=circle]
-	"('day_of_week_mon', 'education_university.degree') [0, 0] 95" [label="('day_of_week_mon', 'education_university.degree') [0, 0] 95", shape=circle]
-	"('day_of_week_thu', 'day_of_week_thu') [0, 0] 110" [label="('day_of_week_thu', 'day_of_week_thu') [0, 0] 110", shape=circle]
-	"('job_retired', 'duration') [0, 88] 100" [label="('job_retired', 'duration') [0, 88] 100", shape=circle]
-	"('job_unknown', 'job_unknown') [0, 0] 105" [label="('job_unknown', 'job_unknown') [0, 0] 105", shape=circle]
+	"leaf 0 146" [label="leaf 0 146", shape=circle]
+	"leaf 0 148" [label="leaf 0 148", shape=circle]
+	"leaf 1 145" [label="leaf 1 145", shape=circle]
+	"leaf 1 147" [label="leaf 1 147", shape=circle]
+	"leaf 0 134" [label="leaf 0 134", shape=circle]
+	"leaf 0 136" [label="leaf 0 136", shape=circle]
+	"leaf 0 137" [label="leaf 0 137", shape=circle]
+	"leaf 1 135" [label="leaf 1 135", shape=circle]
+	"leaf 0 139" [label="leaf 0 139", shape=circle]
+	"leaf 0 140" [label="leaf 0 140", shape=circle]
+	"leaf 1 141" [label="leaf 1 141", shape=circle]
+	"leaf 1 142" [label="leaf 1 142", shape=circle]
+	"leaf 0 89" [label="leaf 0 89", shape=circle]
 	"leaf 0 90" [label="leaf 0 90", shape=circle]
 	"leaf 0 91" [label="leaf 0 91", shape=circle]
-	"leaf 1 92" [label="leaf 1 92", shape=circle]
-	"leaf 1 93" [label="leaf 1 93", shape=circle]
-	"leaf 0 65" [label="leaf 0 65", shape=circle]
-	"leaf 0 66" [label="leaf 0 66", shape=circle]
-	"leaf 1 63" [label="leaf 1 63", shape=circle]
-	"leaf 1 64" [label="leaf 1 64", shape=circle]
-	"('cons_conf_idx', 'age') [-49.5, 29] 55" [label="('cons_conf_idx', 'age') [-49.5, 29] 55", shape=circle]
-	"leaf 1 53" [label="leaf 1 53", shape=circle]
-	"leaf 1 54" [label="leaf 1 54", shape=circle]
-	"leaf 1 60" [label="leaf 1 60", shape=circle]
-	"('job_retired', 'pdays') [0, 0] 42" [label="('job_retired', 'pdays') [0, 0] 42", shape=circle]
-	"leaf 0 47" [label="leaf 0 47", shape=circle]
-	"leaf 1 41" [label="leaf 1 41", shape=circle]
-	"leaf 1 48" [label="leaf 1 48", shape=circle]
-	"('education_university.degree', 'duration') [0, 1487] 14" [label="('education_university.degree', 'duration') [0, 1487] 14", shape=circle]
-	"('month_nov', 'duration') [0, 3366] 9" [label="('month_nov', 'duration') [0, 3366] 9", shape=circle]
-	"leaf 0 7" [label="leaf 0 7", shape=circle]
-	"leaf 0 8" [label="leaf 0 8", shape=circle]
-	"('education_professional.course', 'education_professional.course') [0, 0] 26" [label="('education_professional.course', 'education_professional.course') [0, 0] 26", shape=circle]
-	"('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31" [label="('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31", shape=circle]
-	"leaf 0 24" [label="leaf 0 24", shape=circle]
-	"leaf 0 25" [label="leaf 0 25", shape=circle]
-	"leaf 0 84" [label="leaf 0 84", shape=circle]
-	"leaf 0 85" [label="leaf 0 85", shape=circle]
-	"leaf 0 87" [label="leaf 0 87", shape=circle]
-	"leaf 1 86" [label="leaf 1 86", shape=circle]
+	"leaf 0 92" [label="leaf 0 92", shape=circle]
+	"leaf 0 94" [label="leaf 0 94", shape=circle]
+	"leaf 0 95" [label="leaf 0 95", shape=circle]
+	"leaf 0 96" [label="leaf 0 96", shape=circle]
 	"leaf 0 97" [label="leaf 0 97", shape=circle]
-	"leaf 1 96" [label="leaf 1 96", shape=circle]
-	"leaf 1 98" [label="leaf 1 98", shape=circle]
-	"leaf 1 99" [label="leaf 1 99", shape=circle]
+	"leaf 0 110" [label="leaf 0 110", shape=circle]
 	"leaf 0 111" [label="leaf 0 111", shape=circle]
 	"leaf 0 112" [label="leaf 0 112", shape=circle]
 	"leaf 0 113" [label="leaf 0 113", shape=circle]
-	"leaf 0 114" [label="leaf 0 114", shape=circle]
-	"leaf 0 101" [label="leaf 0 101", shape=circle]
-	"leaf 0 102" [label="leaf 0 102", shape=circle]
-	"leaf 1 103" [label="leaf 1 103", shape=circle]
-	"leaf 1 104" [label="leaf 1 104", shape=circle]
-	"leaf 0 106" [label="leaf 0 106", shape=circle]
-	"leaf 0 107" [label="leaf 0 107", shape=circle]
-	"leaf 0 108" [label="leaf 0 108", shape=circle]
-	"leaf 0 109" [label="leaf 0 109", shape=circle]
-	"leaf 0 58" [label="leaf 0 58", shape=circle]
-	"leaf 1 56" [label="leaf 1 56", shape=circle]
-	"leaf 1 57" [label="leaf 1 57", shape=circle]
-	"leaf 1 59" [label="leaf 1 59", shape=circle]
-	"leaf 0 44" [label="leaf 0 44", shape=circle]
-	"leaf 1 43" [label="leaf 1 43", shape=circle]
-	"leaf 1 45" [label="leaf 1 45", shape=circle]
-	"leaf 1 46" [label="leaf 1 46", shape=circle]
-	"leaf 0 15" [label="leaf 0 15", shape=circle]
-	"leaf 0 16" [label="leaf 0 16", shape=circle]
-	"leaf 1 17" [label="leaf 1 17", shape=circle]
-	"leaf 1 18" [label="leaf 1 18", shape=circle]
-	"leaf 0 10" [label="leaf 0 10", shape=circle]
-	"leaf 0 11" [label="leaf 0 11", shape=circle]
-	"leaf 0 13" [label="leaf 0 13", shape=circle]
-	"leaf 1 12" [label="leaf 1 12", shape=circle]
-	"leaf 0 27" [label="leaf 0 27", shape=circle]
-	"leaf 0 28" [label="leaf 0 28", shape=circle]
-	"leaf 0 29" [label="leaf 0 29", shape=circle]
-	"leaf 0 30" [label="leaf 0 30", shape=circle]
-	"leaf 0 32" [label="leaf 0 32", shape=circle]
-	"leaf 0 33" [label="leaf 0 33", shape=circle]
-	"leaf 0 35" [label="leaf 0 35", shape=circle]
-	"leaf 1 34" [label="leaf 1 34", shape=circle]
+	"leaf 0 120" [label="leaf 0 120", shape=circle]
+	"leaf 0 121" [label="leaf 0 121", shape=circle]
+	"leaf 0 122" [label="leaf 0 122", shape=circle]
+	"leaf 1 123" [label="leaf 1 123", shape=circle]
 
-	"('previous', 'contact_cellular') [6, 0] 0" -> "('job_admin.', 'poutcome_success') [0, 0] 2"
-	"('previous', 'contact_cellular') [6, 0] 0" -> "leaf 0 1"
-	"('previous', 'contact_cellular') [6, 0] 0" -> "('euribor3m', 'pdays') [4.968, 0] 67"
-	"('previous', 'contact_cellular') [6, 0] 0" -> "leaf 0 120"
-	"('euribor3m', 'pdays') [4.968, 0] 67" -> "('marital_married', 'marital_married') [0, 0] 69"
-	"('euribor3m', 'pdays') [4.968, 0] 67" -> "leaf 0 68"
-	"('euribor3m', 'pdays') [4.968, 0] 67" -> "('pdays', 'default_no') [1, 0] 78"
-	"('euribor3m', 'pdays') [4.968, 0] 67" -> "('job_unknown', 'job_unknown') [0, 0] 115"
-	"('job_admin.', 'poutcome_success') [0, 0] 2" -> "('housing_unknown', 'housing_unknown') [0, 0] 3"
-	"('job_admin.', 'poutcome_success') [0, 0] 2" -> "('marital_divorced', 'marital_divorced') [0, 0] 20"
-	"('job_admin.', 'poutcome_success') [0, 0] 2" -> "('duration', 'euribor3m') [72, 1.466] 37"
-	"('job_admin.', 'poutcome_success') [0, 0] 2" -> "('campaign', 'month_nov') [3, 0] 50"
-	"('job_unknown', 'job_unknown') [0, 0] 115" -> "leaf 0 118"
-	"('job_unknown', 'job_unknown') [0, 0] 115" -> "leaf 0 116"
-	"('job_unknown', 'job_unknown') [0, 0] 115" -> "leaf 0 117"
-	"('job_unknown', 'job_unknown') [0, 0] 115" -> "leaf 0 119"
-	"('marital_married', 'marital_married') [0, 0] 69" -> "leaf 1 72"
-	"('marital_married', 'marital_married') [0, 0] 69" -> "leaf 1 70"
-	"('marital_married', 'marital_married') [0, 0] 69" -> "leaf 1 71"
-	"('marital_married', 'marital_married') [0, 0] 69" -> "('education_illiterate', 'age') [0, 35] 73"
-	"('pdays', 'default_no') [1, 0] 78" -> "leaf 0 79"
-	"('pdays', 'default_no') [1, 0] 78" -> "('age', 'age') [86, 86] 80"
-	"('pdays', 'default_no') [1, 0] 78" -> "('previous', 'duration') [4, 606] 89"
-	"('pdays', 'default_no') [1, 0] 78" -> "('education_basic.4y', 'pdays') [0, 11] 94"
-	"('campaign', 'month_nov') [3, 0] 50" -> "('education_university.degree', 'education_university.degree') [0, 0] 52"
-	"('campaign', 'month_nov') [3, 0] 50" -> "leaf 0 61"
-	"('campaign', 'month_nov') [3, 0] 50" -> "('age', 'euribor3m') [29, 0.719] 62"
-	"('campaign', 'month_nov') [3, 0] 50" -> "leaf 1 51"
-	"('duration', 'euribor3m') [72, 1.466] 37" -> "leaf 0 39"
-	"('duration', 'euribor3m') [72, 1.466] 37" -> "('euribor3m', 'euribor3m') [1.354, 1.365] 40"
-	"('duration', 'euribor3m') [72, 1.466] 37" -> "leaf 1 38"
-	"('duration', 'euribor3m') [72, 1.466] 37" -> "leaf 0 49"
-	"('housing_unknown', 'housing_unknown') [0, 0] 3" -> "('day_of_week_wed', 'day_of_week_wed') [0, 0] 6"
-	"('housing_unknown', 'housing_unknown') [0, 0] 3" -> "leaf 0 4"
-	"('housing_unknown', 'housing_unknown') [0, 0] 3" -> "leaf 0 5"
-	"('housing_unknown', 'housing_unknown') [0, 0] 3" -> "leaf 0 19"
-	"('marital_divorced', 'marital_divorced') [0, 0] 20" -> "('loan_yes', 'loan_yes') [0, 0] 23"
-	"('marital_divorced', 'marital_divorced') [0, 0] 20" -> "leaf 0 21"
-	"('marital_divorced', 'marital_divorced') [0, 0] 20" -> "leaf 0 22"
-	"('marital_divorced', 'marital_divorced') [0, 0] 20" -> "leaf 0 36"
-	"('education_illiterate', 'age') [0, 35] 73" -> "leaf 0 76"
-	"('education_illiterate', 'age') [0, 35] 73" -> "leaf 1 74"
-	"('education_illiterate', 'age') [0, 35] 73" -> "leaf 1 77"
-	"('education_illiterate', 'age') [0, 35] 73" -> "leaf 1 75"
-	"('age', 'age') [86, 86] 80" -> "('pdays', 'cons_conf_idx') [2, -47.1] 83"
-	"('age', 'age') [86, 86] 80" -> "leaf 0 81"
-	"('age', 'age') [86, 86] 80" -> "leaf 0 82"
-	"('age', 'age') [86, 86] 80" -> "leaf 1 88"
-	"('education_basic.4y', 'pdays') [0, 11] 94" -> "('day_of_week_mon', 'education_university.degree') [0, 0] 95"
-	"('education_basic.4y', 'pdays') [0, 11] 94" -> "('job_retired', 'duration') [0, 88] 100"
-	"('education_basic.4y', 'pdays') [0, 11] 94" -> "('job_unknown', 'job_unknown') [0, 0] 105"
-	"('education_basic.4y', 'pdays') [0, 11] 94" -> "('day_of_week_thu', 'day_of_week_thu') [0, 0] 110"
-	"('previous', 'duration') [4, 606] 89" -> "leaf 0 91"
-	"('previous', 'duration') [4, 606] 89" -> "leaf 1 92"
-	"('previous', 'duration') [4, 606] 89" -> "leaf 1 93"
-	"('previous', 'duration') [4, 606] 89" -> "leaf 0 90"
-	"('age', 'euribor3m') [29, 0.719] 62" -> "leaf 1 63"
-	"('age', 'euribor3m') [29, 0.719] 62" -> "leaf 1 64"
-	"('age', 'euribor3m') [29, 0.719] 62" -> "leaf 0 65"
-	"('age', 'euribor3m') [29, 0.719] 62" -> "leaf 0 66"
-	"('education_university.degree', 'education_university.degree') [0, 0] 52" -> "('cons_conf_idx', 'age') [-49.5, 29] 55"
-	"('education_university.degree', 'education_university.degree') [0, 0] 52" -> "leaf 1 53"
-	"('education_university.degree', 'education_university.degree') [0, 0] 52" -> "leaf 1 54"
-	"('education_university.degree', 'education_university.degree') [0, 0] 52" -> "leaf 1 60"
-	"('euribor3m', 'euribor3m') [1.354, 1.365] 40" -> "('job_retired', 'pdays') [0, 0] 42"
-	"('euribor3m', 'euribor3m') [1.354, 1.365] 40" -> "leaf 0 47"
-	"('euribor3m', 'euribor3m') [1.354, 1.365] 40" -> "leaf 1 41"
-	"('euribor3m', 'euribor3m') [1.354, 1.365] 40" -> "leaf 1 48"
-	"('day_of_week_wed', 'day_of_week_wed') [0, 0] 6" -> "('month_nov', 'duration') [0, 3366] 9"
-	"('day_of_week_wed', 'day_of_week_wed') [0, 0] 6" -> "leaf 0 7"
-	"('day_of_week_wed', 'day_of_week_wed') [0, 0] 6" -> "leaf 0 8"
-	"('day_of_week_wed', 'day_of_week_wed') [0, 0] 6" -> "('education_university.degree', 'duration') [0, 1487] 14"
-	"('loan_yes', 'loan_yes') [0, 0] 23" -> "('education_professional.course', 'education_professional.course') [0, 0] 26"
-	"('loan_yes', 'loan_yes') [0, 0] 23" -> "leaf 0 24"
-	"('loan_yes', 'loan_yes') [0, 0] 23" -> "leaf 0 25"
-	"('loan_yes', 'loan_yes') [0, 0] 23" -> "('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31"
-	"('pdays', 'cons_conf_idx') [2, -47.1] 83" -> "leaf 0 84"
-	"('pdays', 'cons_conf_idx') [2, -47.1] 83" -> "leaf 0 85"
-	"('pdays', 'cons_conf_idx') [2, -47.1] 83" -> "leaf 1 86"
-	"('pdays', 'cons_conf_idx') [2, -47.1] 83" -> "leaf 0 87"
-	"('day_of_week_mon', 'education_university.degree') [0, 0] 95" -> "leaf 1 96"
-	"('day_of_week_mon', 'education_university.degree') [0, 0] 95" -> "leaf 0 97"
-	"('day_of_week_mon', 'education_university.degree') [0, 0] 95" -> "leaf 1 98"
-	"('day_of_week_mon', 'education_university.degree') [0, 0] 95" -> "leaf 1 99"
-	"('day_of_week_thu', 'day_of_week_thu') [0, 0] 110" -> "leaf 0 113"
-	"('day_of_week_thu', 'day_of_week_thu') [0, 0] 110" -> "leaf 0 111"
-	"('day_of_week_thu', 'day_of_week_thu') [0, 0] 110" -> "leaf 0 112"
-	"('day_of_week_thu', 'day_of_week_thu') [0, 0] 110" -> "leaf 0 114"
-	"('job_retired', 'duration') [0, 88] 100" -> "leaf 0 101"
-	"('job_retired', 'duration') [0, 88] 100" -> "leaf 0 102"
-	"('job_retired', 'duration') [0, 88] 100" -> "leaf 1 103"
-	"('job_retired', 'duration') [0, 88] 100" -> "leaf 1 104"
-	"('job_unknown', 'job_unknown') [0, 0] 105" -> "leaf 0 108"
-	"('job_unknown', 'job_unknown') [0, 0] 105" -> "leaf 0 106"
-	"('job_unknown', 'job_unknown') [0, 0] 105" -> "leaf 0 107"
-	"('job_unknown', 'job_unknown') [0, 0] 105" -> "leaf 0 109"
-	"('cons_conf_idx', 'age') [-49.5, 29] 55" -> "leaf 1 56"
-	"('cons_conf_idx', 'age') [-49.5, 29] 55" -> "leaf 1 57"
-	"('cons_conf_idx', 'age') [-49.5, 29] 55" -> "leaf 0 58"
-	"('cons_conf_idx', 'age') [-49.5, 29] 55" -> "leaf 1 59"
-	"('job_retired', 'pdays') [0, 0] 42" -> "leaf 0 44"
-	"('job_retired', 'pdays') [0, 0] 42" -> "leaf 1 43"
-	"('job_retired', 'pdays') [0, 0] 42" -> "leaf 1 45"
-	"('job_retired', 'pdays') [0, 0] 42" -> "leaf 1 46"
-	"('education_university.degree', 'duration') [0, 1487] 14" -> "leaf 0 15"
-	"('education_university.degree', 'duration') [0, 1487] 14" -> "leaf 0 16"
-	"('education_university.degree', 'duration') [0, 1487] 14" -> "leaf 1 17"
-	"('education_university.degree', 'duration') [0, 1487] 14" -> "leaf 1 18"
-	"('month_nov', 'duration') [0, 3366] 9" -> "leaf 0 10"
-	"('month_nov', 'duration') [0, 3366] 9" -> "leaf 0 11"
-	"('month_nov', 'duration') [0, 3366] 9" -> "leaf 1 12"
-	"('month_nov', 'duration') [0, 3366] 9" -> "leaf 0 13"
-	"('education_professional.course', 'education_professional.course') [0, 0] 26" -> "leaf 0 29"
-	"('education_professional.course', 'education_professional.course') [0, 0] 26" -> "leaf 0 27"
-	"('education_professional.course', 'education_professional.course') [0, 0] 26" -> "leaf 0 28"
-	"('education_professional.course', 'education_professional.course') [0, 0] 26" -> "leaf 0 30"
-	"('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31" -> "leaf 0 32"
-	"('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31" -> "leaf 0 33"
-	"('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31" -> "leaf 1 34"
-	"('nr_employed', 'cons_price_idx') [4963.6, 92.201] 31" -> "leaf 0 35"
+	"('poutcome_nonexistent', 'poutcome_failure') [0, 0] 0" -> "('day_of_week_fri', 'month_may') [0, 0] 2"
+	"('poutcome_nonexistent', 'poutcome_failure') [0, 0] 0" -> "('month_aug', 'month_aug') [0, 0] 79"
+	"('poutcome_nonexistent', 'poutcome_failure') [0, 0] 0" -> "('job_student', 'job_student') [0, 0] 124"
+	"('poutcome_nonexistent', 'poutcome_failure') [0, 0] 0" -> "leaf 0 1"
+	"('day_of_week_fri', 'month_may') [0, 0] 2" -> "('euribor3m', 'day_of_week_wed') [4.12, 0] 3"
+	"('day_of_week_fri', 'month_may') [0, 0] 2" -> "('pdays', 'education_basic.6y') [1, 0] 32"
+	"('day_of_week_fri', 'month_may') [0, 0] 2" -> "('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45"
+	"('day_of_week_fri', 'month_may') [0, 0] 2" -> "('job_technician', 'age') [0, 27] 62"
+	"('job_student', 'job_student') [0, 0] 124" -> "('default_no', 'default_no') [0, 0] 127"
+	"('job_student', 'job_student') [0, 0] 124" -> "leaf 0 125"
+	"('job_student', 'job_student') [0, 0] 124" -> "leaf 0 126"
+	"('job_student', 'job_student') [0, 0] 124" -> "leaf 0 152"
+	"('month_aug', 'month_aug') [0, 0] 79" -> "('job_housemaid', 'job_housemaid') [0, 0] 82"
+	"('month_aug', 'month_aug') [0, 0] 79" -> "leaf 0 80"
+	"('month_aug', 'month_aug') [0, 0] 79" -> "leaf 0 81"
+	"('month_aug', 'month_aug') [0, 0] 79" -> "('job_unknown', 'job_unknown') [0, 0] 103"
+	"('euribor3m', 'day_of_week_wed') [4.12, 0] 3" -> "('marital_single', 'duration') [0, 59] 4"
+	"('euribor3m', 'day_of_week_wed') [4.12, 0] 3" -> "leaf 0 17"
+	"('euribor3m', 'day_of_week_wed') [4.12, 0] 3" -> "('education_high.school', 'education_high.school') [0, 0] 18"
+	"('euribor3m', 'day_of_week_wed') [4.12, 0] 3" -> "leaf 0 31"
+	"('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45" -> "leaf 0 46"
+	"('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45" -> "leaf 0 47"
+	"('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45" -> "('poutcome_success', 'duration') [1, 85] 48"
+	"('job_entrepreneur', 'cons_conf_idx') [0, -46.2] 45" -> "('euribor3m', 'duration') [0.682, 269] 57"
+	"('job_technician', 'age') [0, 27] 62" -> "leaf 0 64"
+	"('job_technician', 'age') [0, 27] 62" -> "leaf 1 63"
+	"('job_technician', 'age') [0, 27] 62" -> "('day_of_week_thu', 'pdays') [0, 3] 65"
+	"('job_technician', 'age') [0, 27] 62" -> "('cons_conf_idx', 'housing_yes') [-46.2, 0] 74"
+	"('pdays', 'education_basic.6y') [1, 0] 32" -> "leaf 0 34"
+	"('pdays', 'education_basic.6y') [1, 0] 32" -> "('euribor3m', 'campaign') [1.726, 6] 35"
+	"('pdays', 'education_basic.6y') [1, 0] 32" -> "leaf 1 33"
+	"('pdays', 'education_basic.6y') [1, 0] 32" -> "('month_jul', 'pdays') [0, 3] 40"
+	"('default_no', 'default_no') [0, 0] 127" -> "('education_unknown', 'education_unknown') [0, 0] 130"
+	"('default_no', 'default_no') [0, 0] 127" -> "leaf 0 128"
+	"('default_no', 'default_no') [0, 0] 127" -> "leaf 0 129"
+	"('default_no', 'default_no') [0, 0] 127" -> "('cons_conf_idx', 'duration') [-47.1, 1594] 143"
+	"('job_housemaid', 'job_housemaid') [0, 0] 82" -> "('education_university.degree', 'education_university.degree') [0, 0] 85"
+	"('job_housemaid', 'job_housemaid') [0, 0] 82" -> "leaf 0 83"
+	"('job_housemaid', 'job_housemaid') [0, 0] 82" -> "leaf 0 84"
+	"('job_housemaid', 'job_housemaid') [0, 0] 82" -> "('month_jun', 'month_jun') [0, 0] 98"
+	"('job_unknown', 'job_unknown') [0, 0] 103" -> "('euribor3m', 'duration') [0.821, 3422] 106"
+	"('job_unknown', 'job_unknown') [0, 0] 103" -> "leaf 0 104"
+	"('job_unknown', 'job_unknown') [0, 0] 103" -> "leaf 0 105"
+	"('job_unknown', 'job_unknown') [0, 0] 103" -> "('nr_employed', 'pdays') [4991.6, 999] 115"
+	"('education_high.school', 'education_high.school') [0, 0] 18" -> "('month_oct', 'duration') [0, 71] 21"
+	"('education_high.school', 'education_high.school') [0, 0] 18" -> "leaf 1 19"
+	"('education_high.school', 'education_high.school') [0, 0] 18" -> "leaf 1 20"
+	"('education_high.school', 'education_high.school') [0, 0] 18" -> "('marital_married', 'duration') [0, 90] 26"
+	"('marital_single', 'duration') [0, 59] 4" -> "leaf 0 5"
+	"('marital_single', 'duration') [0, 59] 4" -> "leaf 0 6"
+	"('marital_single', 'duration') [0, 59] 4" -> "('previous', 'job_blue-collar') [6, 0] 7"
+	"('marital_single', 'duration') [0, 59] 4" -> "('housing_yes', 'job_housemaid') [0, 0] 12"
+	"('euribor3m', 'duration') [0.682, 269] 57" -> "leaf 0 60"
+	"('euribor3m', 'duration') [0.682, 269] 57" -> "leaf 0 58"
+	"('euribor3m', 'duration') [0.682, 269] 57" -> "leaf 1 61"
+	"('euribor3m', 'duration') [0.682, 269] 57" -> "leaf 0 59"
+	"('poutcome_success', 'duration') [1, 85] 48" -> "leaf 0 51"
+	"('poutcome_success', 'duration') [1, 85] 48" -> "leaf 1 49"
+	"('poutcome_success', 'duration') [1, 85] 48" -> "('job_services', 'duration') [0, 131] 52"
+	"('poutcome_success', 'duration') [1, 85] 48" -> "leaf 1 50"
+	"('cons_conf_idx', 'housing_yes') [-46.2, 0] 74" -> "leaf 1 76"
+	"('cons_conf_idx', 'housing_yes') [-46.2, 0] 74" -> "leaf 1 75"
+	"('cons_conf_idx', 'housing_yes') [-46.2, 0] 74" -> "leaf 0 77"
+	"('cons_conf_idx', 'housing_yes') [-46.2, 0] 74" -> "leaf 1 78"
+	"('day_of_week_thu', 'pdays') [0, 3] 65" -> "leaf 1 68"
+	"('day_of_week_thu', 'pdays') [0, 3] 65" -> "leaf 1 66"
+	"('day_of_week_thu', 'pdays') [0, 3] 65" -> "('job_blue-collar', 'duration') [0, 218] 69"
+	"('day_of_week_thu', 'pdays') [0, 3] 65" -> "leaf 1 67"
+	"('euribor3m', 'campaign') [1.726, 6] 35" -> "leaf 1 37"
+	"('euribor3m', 'campaign') [1.726, 6] 35" -> "leaf 0 38"
+	"('euribor3m', 'campaign') [1.726, 6] 35" -> "leaf 0 39"
+	"('euribor3m', 'campaign') [1.726, 6] 35" -> "leaf 1 36"
+	"('month_jul', 'pdays') [0, 3] 40" -> "leaf 0 42"
+	"('month_jul', 'pdays') [0, 3] 40" -> "leaf 0 41"
+	"('month_jul', 'pdays') [0, 3] 40" -> "leaf 1 43"
+	"('month_jul', 'pdays') [0, 3] 40" -> "leaf 0 44"
+	"('cons_conf_idx', 'duration') [-47.1, 1594] 143" -> "('pdays', 'day_of_week_tue') [6, 0] 144"
+	"('cons_conf_idx', 'duration') [-47.1, 1594] 143" -> "leaf 0 149"
+	"('cons_conf_idx', 'duration') [-47.1, 1594] 143" -> "leaf 0 150"
+	"('cons_conf_idx', 'duration') [-47.1, 1594] 143" -> "leaf 1 151"
+	"('education_unknown', 'education_unknown') [0, 0] 130" -> "('duration', 'month_may') [1285, 0] 133"
+	"('education_unknown', 'education_unknown') [0, 0] 130" -> "leaf 0 131"
+	"('education_unknown', 'education_unknown') [0, 0] 130" -> "leaf 0 132"
+	"('education_unknown', 'education_unknown') [0, 0] 130" -> "('housing_no', 'cons_conf_idx') [0, -42.0] 138"
+	"('education_university.degree', 'education_university.degree') [0, 0] 85" -> "('duration', 'month_oct') [3643, 0] 88"
+	"('education_university.degree', 'education_university.degree') [0, 0] 85" -> "leaf 0 86"
+	"('education_university.degree', 'education_university.degree') [0, 0] 85" -> "leaf 0 87"
+	"('education_university.degree', 'education_university.degree') [0, 0] 85" -> "('emp_var_rate', 'duration') [1.1, 2621] 93"
+	"('month_jun', 'month_jun') [0, 0] 98" -> "leaf 0 101"
+	"('month_jun', 'month_jun') [0, 0] 98" -> "leaf 0 99"
+	"('month_jun', 'month_jun') [0, 0] 98" -> "leaf 0 100"
+	"('month_jun', 'month_jun') [0, 0] 98" -> "leaf 0 102"
+	"('euribor3m', 'duration') [0.821, 3422] 106" -> "leaf 0 108"
+	"('euribor3m', 'duration') [0.821, 3422] 106" -> "('nr_employed', 'nr_employed') [5076.2, 5076.2] 109"
+	"('euribor3m', 'duration') [0.821, 3422] 106" -> "leaf 0 107"
+	"('euribor3m', 'duration') [0.821, 3422] 106" -> "leaf 1 114"
+	"('nr_employed', 'pdays') [4991.6, 999] 115" -> "leaf 1 118"
+	"('nr_employed', 'pdays') [4991.6, 999] 115" -> "('duration', 'age') [390, 57] 119"
+	"('nr_employed', 'pdays') [4991.6, 999] 115" -> "leaf 0 116"
+	"('nr_employed', 'pdays') [4991.6, 999] 115" -> "leaf 0 117"
+	"('marital_married', 'duration') [0, 90] 26" -> "leaf 1 27"
+	"('marital_married', 'duration') [0, 90] 26" -> "leaf 0 28"
+	"('marital_married', 'duration') [0, 90] 26" -> "leaf 1 29"
+	"('marital_married', 'duration') [0, 90] 26" -> "leaf 1 30"
+	"('month_oct', 'duration') [0, 71] 21" -> "leaf 0 23"
+	"('month_oct', 'duration') [0, 71] 21" -> "leaf 1 22"
+	"('month_oct', 'duration') [0, 71] 21" -> "leaf 1 24"
+	"('month_oct', 'duration') [0, 71] 21" -> "leaf 1 25"
+	"('housing_yes', 'job_housemaid') [0, 0] 12" -> "leaf 1 13"
+	"('housing_yes', 'job_housemaid') [0, 0] 12" -> "leaf 1 14"
+	"('housing_yes', 'job_housemaid') [0, 0] 12" -> "leaf 0 15"
+	"('housing_yes', 'job_housemaid') [0, 0] 12" -> "leaf 0 16"
+	"('previous', 'job_blue-collar') [6, 0] 7" -> "leaf 1 9"
+	"('previous', 'job_blue-collar') [6, 0] 7" -> "leaf 0 10"
+	"('previous', 'job_blue-collar') [6, 0] 7" -> "leaf 0 11"
+	"('previous', 'job_blue-collar') [6, 0] 7" -> "leaf 1 8"
+	"('job_services', 'duration') [0, 131] 52" -> "leaf 0 54"
+	"('job_services', 'duration') [0, 131] 52" -> "leaf 1 53"
+	"('job_services', 'duration') [0, 131] 52" -> "leaf 1 55"
+	"('job_services', 'duration') [0, 131] 52" -> "leaf 1 56"
+	"('job_blue-collar', 'duration') [0, 218] 69" -> "leaf 0 70"
+	"('job_blue-collar', 'duration') [0, 218] 69" -> "leaf 0 71"
+	"('job_blue-collar', 'duration') [0, 218] 69" -> "leaf 1 72"
+	"('job_blue-collar', 'duration') [0, 218] 69" -> "leaf 0 73"
+	"('pdays', 'day_of_week_tue') [6, 0] 144" -> "leaf 1 145"
+	"('pdays', 'day_of_week_tue') [6, 0] 144" -> "leaf 0 146"
+	"('pdays', 'day_of_week_tue') [6, 0] 144" -> "leaf 1 147"
+	"('pdays', 'day_of_week_tue') [6, 0] 144" -> "leaf 0 148"
+	"('duration', 'month_may') [1285, 0] 133" -> "leaf 0 134"
+	"('duration', 'month_may') [1285, 0] 133" -> "leaf 1 135"
+	"('duration', 'month_may') [1285, 0] 133" -> "leaf 0 136"
+	"('duration', 'month_may') [1285, 0] 133" -> "leaf 0 137"
+	"('housing_no', 'cons_conf_idx') [0, -42.0] 138" -> "leaf 0 139"
+	"('housing_no', 'cons_conf_idx') [0, -42.0] 138" -> "leaf 0 140"
+	"('housing_no', 'cons_conf_idx') [0, -42.0] 138" -> "leaf 1 141"
+	"('housing_no', 'cons_conf_idx') [0, -42.0] 138" -> "leaf 1 142"
+	"('duration', 'month_oct') [3643, 0] 88" -> "leaf 0 90"
+	"('duration', 'month_oct') [3643, 0] 88" -> "leaf 0 91"
+	"('duration', 'month_oct') [3643, 0] 88" -> "leaf 0 92"
+	"('duration', 'month_oct') [3643, 0] 88" -> "leaf 0 89"
+	"('emp_var_rate', 'duration') [1.1, 2621] 93" -> "leaf 0 95"
+	"('emp_var_rate', 'duration') [1.1, 2621] 93" -> "leaf 0 96"
+	"('emp_var_rate', 'duration') [1.1, 2621] 93" -> "leaf 0 94"
+	"('emp_var_rate', 'duration') [1.1, 2621] 93" -> "leaf 0 97"
+	"('nr_employed', 'nr_employed') [5076.2, 5076.2] 109" -> "leaf 0 112"
+	"('nr_employed', 'nr_employed') [5076.2, 5076.2] 109" -> "leaf 0 110"
+	"('nr_employed', 'nr_employed') [5076.2, 5076.2] 109" -> "leaf 0 111"
+	"('nr_employed', 'nr_employed') [5076.2, 5076.2] 109" -> "leaf 0 113"
+	"('duration', 'age') [390, 57] 119" -> "leaf 0 120"
+	"('duration', 'age') [390, 57] 119" -> "leaf 0 121"
+	"('duration', 'age') [390, 57] 119" -> "leaf 0 122"
+	"('duration', 'age') [390, 57] 119" -> "leaf 1 123"
 }
